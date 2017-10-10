@@ -12,8 +12,7 @@
     "build:src": "postcss src/btn.css -o css/btn.css -m",
     "build:minify": "postcss src/btn.css --use cssnano -o css/btn.min.css -m",
     "dev": "npm run build:src build:minify -- -w",
-    "demo": "live-server --ignore=node_modules",
-    "publish": "npm publish --access public"
+    "demo": "live-server --ignore=node_modules"
   },
   "author": "mikker",
   "license": "MIT",
