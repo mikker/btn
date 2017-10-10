@@ -1,6 +1,6 @@
 # @mikker/btn
 
-## [DEMO](https://mikker.github.io/btn/demo/)
+**[DEMO and usage](https://mikker.github.io/btn/demo/)**
 
 A `.btn` class for use with [Tachyons](http://tachyons.io).
 
