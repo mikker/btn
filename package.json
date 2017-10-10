@@ -1,6 +1,6 @@
 {
   "name": "@mikker/btn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A btn for use with Tachyons",
   "style": "css/btn.min.css",
   "main": "css/btn.css",
