@@ -69,7 +69,9 @@
           "repo": "btn"
         }
       ],
-      "text": "v1.0.0"
+      "text": "v1.0.0",
+      "slug": "",
+      "links": []
     },
     {
       "component": "article",
@@ -77,19 +79,6 @@
         "source": "github.readme"
       },
       "html": "<h1>@mikker/btn</h1>\n<p>A <code>.btn</code> class for use with <a href=\"http://tachyons.io\">Tachyons</a>.</p>\n<p>Even though Tachyons&apos; strictly functional style is great I always find myself re-adding some kind of base button to every project. This is it.</p>\n<p><strong>NB: Be sure to include <code>btn.css</code> <em>before</em> `tachyons.css.</strong></p>\n<h2>License</h2>\n<p>MIT</p>\n"
-    },
-    {
-      "component": "footer",
-      "links": [
-        {
-          "href": "https://github.com/mikker/btn",
-          "text": "GitHub"
-        },
-        {
-          "href": "https://github.com/mikker",
-          "text": "mikker"
-        }
-      ]
     }
   ]
 }
