@@ -4,6 +4,7 @@
   "description": "A btn for use with Tachyons",
   "style": "css/btn.min.css",
   "main": "css/btn.css",
+  "repository": "mikker/btn",
   "files": [
     "css",
     "src"
