@@ -1,0 +1,95 @@
+{
+  "name": "mikker/btn",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "btn",
+  "branch": "",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/mikker/btn",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/btn",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "btn",
+      "subhead": "A base button class for use with Tachyons",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "btn: A base button class for use with Tachyons",
+          "url": ""
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "mikker",
+          "repo": "btn"
+        }
+      ],
+      "text": "v1.0.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "<h1>@mikker/btn</h1>\n<p>A <code>.btn</code> class for use with <a href=\"http://tachyons.io\">Tachyons</a>.</p>\n<p>Even though Tachyons&apos; strictly functional style is great I always find myself re-adding some kind of base button to every project. This is it.</p>\n<p><strong>NB: Be sure to include <code>btn.css</code> <em>before</em> `tachyons.css.</strong></p>\n<h2>License</h2>\n<p>MIT</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/mikker/btn",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/mikker",
+          "text": "mikker"
+        }
+      ]
+    }
+  ]
+}
