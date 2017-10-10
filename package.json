@@ -4,7 +4,10 @@
   "description": "A btn for use with Tachyons",
   "style": "css/btn.min.css",
   "main": "css/btn.css",
-  "files": ["css", "src"],
+  "files": [
+    "css",
+    "src"
+  ],
   "scripts": {
     "build:src": "postcss src/btn.css -o css/btn.css -m",
     "build:minify": "postcss src/btn.css --use cssnano -o css/btn.min.css -m",
