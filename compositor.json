@@ -71,7 +71,12 @@
       ],
       "text": "v1.0.0",
       "slug": "",
-      "links": []
+      "links": [
+        {
+          "href": "https://mikker.github.com/btn/demo/",
+          "text": "DEMO and usage"
+        }
+      ]
     },
     {
       "component": "article",
