@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+    <title>btn demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="../css/btn.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.8.1/css/tachyons.min.css">
+
+    <style>
+      pre { background: #f1f1f1; padding: .25rem .5rem; }
+    </style>
+  </head>
+  <body class='sans-serif pa4 lh-copy'>
+    <h2>Plain</h2>
+    <p>
+      <a href='#' class='btn'>Plain a</a>
+      <button class="btn">Plain button</button>
+    </p>
+    <pre><code>&lt;button class='btn'&gt;Button reset&lt;/button&gt;
+&lt;a class='btn'&gt;Plain a&lt;/a&gt;</code></pre>
+    <p>
+      <button class="btn-reset">Button reset</button>
+      <pre><code>&lt;button class='btn-reset'&gt;Button reset&lt;/button&gt;</code></pre>
+    </p>
+
+    <h2>Colors</h2>
+    <p>Use with Tachyons' regular colors</p>
+    <p>
+      <a class="btn bg-green white" href="#">Green a</a>
+      <a class="btn bg-gray white" href="#">Gray a</a>
+      <a class="btn bg-yellow black" href="#">Yellow a</a>
+      <a class="btn bg-light-purple white" href="#">Purple a</a>
+      <a class="btn bg-red white" href="#">Green a</a>
+    </p>
+    <pre><code>class="btn bg-green white"
+class="btn bg-yellow black"</code></pre>
+
+    <h2>Borders</h2>
+    <p>
+      <a class='btn b--near-black' href='#'>Bordered</a>
+      <a class='btn b--light-gray' href='#'>Bordered</a>
+      <a class="btn blue b--blue" href="#">Bordered</a>
+      <a class="btn bg-yellow hot-pink b--green" href="#">Bordered</a>
+    </p>
+    <pre><code>class="btn b--near-black"
+class="btn b--light-gray"
+class="btn blue b--blue"
+class="btn bg-yellow hot-pink b--green"</code></pre>
+
+    <h2>Sizes</h2>
+    <p>Add padding and bump text size with Tachyons</p>
+    <p>
+      <a class="btn bg-hot-pink white f3 ph3 pv2" href="">Size 3 text</a>
+      <a class="btn bg-hot-pink white f4 ph3 pv2" href="">Size 4 text</a>
+      <a class="btn bg-hot-pink white ph3 pv2" href="">Just more padding</a>
+    </p>
+    <pre><code>class="btn bg-hot-pink white f3 ph3 pv2"
+class="btn bg-hot-pink white f4 ph3 pv2"
+class="btn bg-hot-pink white ph3 pv2"</code></pre>
+    <p>
+      <a class="btn f6 bg-purple white" href="#">Small button</a>
+      <a class="btn f7 bg-purple white normal" href="#">Smaller button</a>
+    </p>
+    <pre><code>class="btn f6 bg-purple white"
+class="btn f7 bg-purple white normal"</code></pre>
+    <p>
+      <a class="btn bg-light-blue navy f1 ph5 pv3 br-pill" href="#">Enormous button</a>
+    </p>
+    <pre><code>class='btn bg-light-blue navy f1 ph5 pv3 br-pill'</code></pre>
+
+    <h2>Button groups</h2>
+    <p>Use groups to remove border radii between buttons</p>
+    <p>
+      <div class="btn-group">
+        <a class="btn white bg-green">Green</a><a class="btn white bg-yellow">Yellow</a><a class="btn white bg-red">Red</a>
+      </div>
+    </p>
+    <pre><code>&lt;div class='btn-group'&gt;
+  &lt;button class='btn bg-green'&gt;One&lt;/button&gt;&lt;button class='btn bg-green'&gt;Two&lt;/button&gt;
+&lt;/div&gt;</code></pre>
+
+    <h2>Other</h2>
+    <p>
+      A button <button class='btn bg-red white'>inside</button> some copy.
+    </p>
+    <p>
+      A <button disabled class='btn bg-light-silver black'>disabled button</button>.
+    </p>
+
+    <h2></h2>
+  </body>
+</html>
