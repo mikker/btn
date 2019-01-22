@@ -35,7 +35,7 @@
 
 .btn:focus {
   outline: none;
-  border-color: var(--black-10, rgba(0,0,0,.1));
+  box-shadow: rgba(22, 125, 228, .8) 0 0 3px;
 }
 
 .btn:active {
@@ -80,7 +80,7 @@
 }
 
 :root {
-  --btn-padding: var(--spacing-extra-small, .25rem) var(--spacing-small, .5rem);
-  --btn-border-radius: var(--spacing-extra-small, .25rem);
-  --btn-border-width: .125rem;
+  --btn-padding: var(--spacing-extra-small, .25em) var(--spacing-small, .5em);
+  --btn-border-radius: var(--spacing-extra-small, .25em);
+  --btn-border-width: .125em;
 }
