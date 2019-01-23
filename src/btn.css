@@ -82,5 +82,5 @@
 :root {
   --btn-padding: var(--spacing-extra-small, .25em) var(--spacing-small, .5em);
   --btn-border-radius: var(--spacing-extra-small, .25em);
-  --btn-border-width: .125em;
+  --btn-border-width: .125rem;
 }
